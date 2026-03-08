@@ -28,8 +28,8 @@ from app.models.models import Interaction, HCP, AgentSession
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-PRIMARY_MODEL = "llama-3.3-70b-versatile"
-FALLBACK_MODEL = "llama-3.3-70b-versatile"
+PRIMARY_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
+FALLBACK_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
 
 
 # ─────────────────────────────────────────────
